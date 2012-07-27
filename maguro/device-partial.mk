@@ -11,3 +11,19 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+# Imgtec blob(s) necessary for Maguro hardware
+PRODUCT_PACKAGES := \
+    pvrsrvctl \
+    libEGL_POWERVR_SGX540_120 \
+    libGLESv1_CM_POWERVR_SGX540_120 \
+    libGLESv2_POWERVR_SGX540_120 \
+    gralloc.omap4 \
+    libglslcompiler \
+    libIMGegl \
+    libpvr2d \
+    libpvrANDROID_WSEGL \
+    libPVRScopeServices \
+    libsrv_init \
+    libsrv_um \
+    libusc
